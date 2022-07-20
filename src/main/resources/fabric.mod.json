@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "metro",
+  "version": "${version}",
+
+  "name": "Metro Mod",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "ItzJerry"
+  ],
+  "contact": {
+    "homepage": "https://itzjerry.top/",
+    "sources": "https://github.com/ItzJerry317/Metro-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/metro/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.metromodbyitzjerry.metro.MetroMod"
+    ]
+  },
+  "mixins": [
+    "metro.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.17",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
